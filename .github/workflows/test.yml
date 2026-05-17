@@ -1,0 +1,7 @@
+on push:
+  workflow_dispatch:
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 300
